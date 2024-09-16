@@ -1,0 +1,25 @@
+#standard-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: max-content;
+    width: 100vw;
+    padding-block: 0.3rem;
+    padding-inline: 0.5rem;
+    #sn-container {
+        display: grid;
+        grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+        position: relative;
+        z-index: 2;
+    }
+    .vail {
+        backdrop-filter: blur(5px);
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        background-color: var(--grey-alpha);
+    }
+}

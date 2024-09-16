@@ -1,0 +1,22 @@
+:root {
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    /* Theme */
+    --grey: rgb(212, 212, 212);
+    --grey-alpha: rgba(212, 212, 212, 0.7);
+
+    /* Text */
+    .bold {
+        -webkit-text-stroke: 0.4px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    /* Device Edge Space Buffer */
+}
+
+main{
+    margin-top: 5rem;
+}
